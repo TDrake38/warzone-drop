@@ -28,7 +28,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .mili-pin {
@@ -37,7 +37,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .salt-pin {
@@ -46,7 +46,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .array-pin {
@@ -55,7 +55,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .tv-pin {
@@ -64,7 +64,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .air-pin {
@@ -73,7 +73,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .super-pin {
@@ -82,7 +82,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .factory-pin {
@@ -91,7 +91,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .storage-pin {
@@ -100,7 +100,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .stadium-pin {
@@ -109,7 +109,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .lumber-pin {
@@ -118,7 +118,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .hospital-pin {
@@ -127,7 +127,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .bone-pin {
@@ -136,7 +136,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .train-pin {
@@ -145,7 +145,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .dt-pin {
@@ -154,7 +154,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .farm-pin {
@@ -163,7 +163,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .pe-pin {
@@ -172,7 +172,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .pw-pin {
@@ -181,7 +181,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .hills-pin {
@@ -190,7 +190,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .park-pin {
@@ -199,7 +199,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .port-pin {
@@ -208,7 +208,7 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
 
 .prison-pin {
@@ -217,5 +217,5 @@ body {
     position: absolute;
     width: 32px;
     height: auto;
-    /*display: none;*/
+    display: none;
 }
