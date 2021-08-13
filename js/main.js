@@ -113,6 +113,10 @@ const locations = [
     },
 ]
 
+
+const drops = ['', ]
+
+
 // -- This is to log all locations!
 //locations.forEach(element => console.log(element))
 
