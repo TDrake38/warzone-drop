@@ -113,24 +113,21 @@ const locations = [
     },
 ]
 
-
-const drops = ['', ]
-
-
 // -- This is to log all locations!
-//locations.forEach(element => console.log(element))
-
+    //locations.forEach(element => console.log(element))
 
 // -- This picks a random location
-var dz = locations[Math.floor(Math.random()*locations.length)];
+    //var dz = locations[Math.floor(Math.random()*locations.length)];
 
-// --- This console logs a random location
-//console.log(dz)
+// -- This console logs the random location 
+    //console.log(dz)
 
-var jump = document.getElementById("sendIt");
-jump.addEventListener("click", fly, false);
+const result = document.getElementById("result1");
+const jump = document.getElementById("sendIt");
 
-function fly(e){
-    e.preventDefault();
-    console.log(dz)
-}
+// When you click the button it makes the random location name come up in HTML
+jump.addEventListener("click", () => {
+    let dz = locations[Math.floor(Math.random()*locations.length)];
+    result1.innerText = dz.name
+});
+

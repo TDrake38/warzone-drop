@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    background: black;
+    color: white;
 }
 
 .title {
@@ -13,6 +15,10 @@ body {
     padding: 10px 0px;
 }
 
+.drop-title {
+    font-size:xx-large;
+}
+
 .flex-box {
     display: flex;
     justify-content: center;
@@ -20,6 +26,14 @@ body {
 .wz-image {
     max-width: 100%;
     height: auto;
+}
+
+.btn {
+    text-align: center;
+}
+
+.button {
+    font-size: 30px;
 }
 
 .summit-pin {
