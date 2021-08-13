@@ -113,8 +113,12 @@ const locations = [
     },
 ]
 
-locations.forEach(element => console.log(element))
+// -- This is to log all locations!
+//locations.forEach(element => console.log(element))
 
+
+// -- This picks a random location
 var dz = locations[Math.floor(Math.random()*locations.length)];
 
+// --- This console logs a random location
 console.log(dz)
