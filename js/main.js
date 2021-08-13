@@ -113,6 +113,8 @@ const locations = [
     },
 ]
 
+locations.forEach(element => console.log(element))
+
 var dz = locations[Math.floor(Math.random()*locations.length)];
 
 console.log(dz)
