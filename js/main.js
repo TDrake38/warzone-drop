@@ -121,4 +121,12 @@ const locations = [
 var dz = locations[Math.floor(Math.random()*locations.length)];
 
 // --- This console logs a random location
-console.log(dz)
+//console.log(dz)
+
+var jump = document.getElementById("sendIt");
+jump.addEventListener("click", fly, false);
+
+function fly(e){
+    e.preventDefault();
+    console.log(dz)
+}
