@@ -124,10 +124,21 @@ const locations = [
 
 const result = document.getElementById("result1");
 const jump = document.getElementById("sendIt");
+const list = document.getElementById("dropList");
+let li = document.createElement("li");
 
 // When you click the button it makes the random location name come up in HTML
 jump.addEventListener("click", () => {
     let dz = locations[Math.floor(Math.random()*locations.length)];
-    result1.innerText = dz.name
+    result1.innerText = dz.name;
+
+    let dzLocation = dz.name
+    let liNode = document.createElement("li");
+    let textNode = document.createTextNode(dzLocation);
+
+    liNode.appendChild(textNode);
+    list.appendChild(liNode);
 });
+
+
 
