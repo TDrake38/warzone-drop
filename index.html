@@ -4,97 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <!-- link rel="stylesheet" type="text/css" href="bootstrap-5.1.0-dist (1)/bootstrap-5.1.0-dist/css/bootstrap.min.css" -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.1.0-dist (1)/bootstrap-5.1.0-dist/css/bootstrap.min.css">
     <title>WZ Drop</title>
 </head>
 <body>
-    <div>
-        <div class="title">
+    <div class="container">
+        <div class="text-secondary fs-3 fw-bold text-center">
             WZ DROP PICKER
         </div>
-        <div class="flex-box">
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="summit-pin" id="summit">
+    </div>
+    <div class="container">
+        <div class="row bg-black">
+            <div class="col-6">
+                <img src="images/wz_drop1.jpg" alt="wz map with names" class="img-fluid p-0">
+            </div> 
+            <div class="col-2">
+                <button id="sendIt" class="btn btn-danger btn-lg">JUMP!</button>
             </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="mili-pin" id="mili">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="salt-pin" id="salt">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="array-pin" id="array">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="tv-pin" id="tv">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="air-pin" id="air">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="super-pin" id="super">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="factory-pin" id="factory">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="storage-pin" id="storage">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="stadium-pin" id="stadium">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="lumber-pin" id="lumber">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="hospital-pin" id="hospital">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="bone-pin" id="bone">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="train-pin" id="train">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="dt-pin" id="dt">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="farm-pin" id="farm">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="pe-pin" id="prom_e">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="pw-pin" id="prom_w">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="hills-pin" id="hills">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="park-pin" id="park">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="port-pin" id="port">
-            </div>
-            <div>
-                <img src="images/pin-9-48.png" alt="drop pin" class="prison-pin" id="prison">
-            </div>
-            <div>
-                <img src="images/wz_drop1.jpg" alt="wz map with names" class="wz-image" >
+            <div class="text-secondary col-2 bg-black">
+                <ul>
+                    <li>Summit</li>
+                    <li>Military Base</li>
+                    <li>Salt Mine</li>
+                    <li>Array</li>
+                    <li>Airport</li>
+                    <li>TV Station</li>
+                    <li>Superstore</li>
+                    <li>Storage Town</li>
+                    <li>Factory</li>
+                    <li>Stadium</li>
+                    <li>Lumber</li>
+                    <li>Boneyard</li>
+                    <li>Hospital</li>
+                    <li>Train Station</li>
+                    <li>Downtown</li>
+                    <li>Farmland</li>
+                    <li>Promenade East</li>
+                    <li>Promenade West</li>
+                    <li>Hills</li>
+                    <li>Park</li>
+                    <li>Port</li>
+                    <li>Prison</li>
+                </ul>
             </div>
         </div>
-        <div class="btn">
-            <button id="sendIt" class="button">JUMP!</button>
-        </div>
-        <div class="drop-title">
+        
+        <div class="text-secondary col">
             Drop Here!
-        </div>
-        <div id="result1">
+            <div id="result1" class="text-secondary"></div>
         </div>
         <div>
-            <div class="drop-results">Past Drops</div>
-            <ul id="dropList"></ul>
+            
+            <div>
+                <div class="text-secondary">Past Drops</div>
+                <ul id="dropList" class="text-secondary"></ul>
+            </div>
         </div>
     </div>
 
