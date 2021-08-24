@@ -3,13 +3,13 @@
 const locations = [
     {
         name: "Summit",
-        top: 25,
-        left: 85,
+        y: 164,
+        x: 255,
     },
     {
         name: "Military Base",
-        top: 23,
-        left: 170,
+        y: 23,
+        x: 170,
     },
     {
         name: "Salt Mine",
@@ -108,8 +108,8 @@ const locations = [
     },
     {
         name: "Prison",
-        top: 256,
-        left: 285,
+        y: 256,
+        k: 285,
     },
 ]
 
@@ -121,11 +121,12 @@ const locations = [
 
 // -- This console logs the random location 
     //console.log(dz)
-
+const pin = document.getElementById("redDot")
 const result = document.getElementById("result1");
 const jump = document.getElementById("sendIt");
 const list = document.getElementById("dropList");
 let li = document.createElement("li");
+
 
 // When you click the button it makes the random location name come up in HTML
 jump.addEventListener("click", () => {
@@ -138,7 +139,10 @@ jump.addEventListener("click", () => {
 
     liNode.appendChild(textNode);
     list.appendChild(liNode);
+    
+    var x = random(0,944)
+    var y = random(0,846)
+    //pin.
 });
-
 
 
