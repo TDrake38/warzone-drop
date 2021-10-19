@@ -2,14 +2,10 @@ body {
     background-color: black;
 }
 
-.drop-results {
-    font-size: 40px;
-    margin-top: 30px;
-}
-
 .red-dot {
     position: absolute;
 }
+
 
 .bootan {
     position: absolute;
@@ -31,15 +27,26 @@ body {
     font-size: 1.5rem;
 }
 
-.box {
-    display: block;
+.pic {
+    object-fit:scale-down;
 }
 
 .past {
     font-weight: bold;
     color: white;
+    text-decoration: underline;
 }
 
 .places {
     color: white
+}
+
+.the-past {
+    position: absolute;
+    margin-left: 40rem;
+    display: flex;
+    flex: wrap;
+    border: 3px solid white;
+    width: 25rem;
+    height: 35.3rem;
 }
