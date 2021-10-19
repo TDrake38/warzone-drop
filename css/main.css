@@ -10,3 +10,36 @@ body {
 .red-dot {
     position: absolute;
 }
+
+.bootan {
+    position: absolute;
+    margin-top: 32rem;
+    margin-left: 18.5rem;
+}
+
+.rez {
+    position: absolute;
+    margin-top: 31rem;
+    margin-left: 3rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.ultz {
+    color: red;
+    font-size: 1.5rem;
+}
+
+.box {
+    display: block;
+}
+
+.past {
+    font-weight: bold;
+    color: white;
+}
+
+.places {
+    color: white
+}
