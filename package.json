@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TDrake38/warzone-drop-2.git"
+    "url": "git+https://github.com/TDrake38/warzone-drop.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TDrake38/warzone-drop-2/issues"
+    "url": "https://github.com/TDrake38/warzone-drop/issues"
   },
-  "homepage": "https://github.com/TDrake38/warzone-drop-2#readme",
+  "homepage": "https://github.com/TDrake38/warzone-drop#readme",
   "dependencies": {
     "express": "^4.17.2",
     "react": "^17.0.2",
