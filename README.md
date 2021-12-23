@@ -1,3 +1,1 @@
-# warzone-drop
-
-This is a random drop generator. 
+# warzone-drop-2
