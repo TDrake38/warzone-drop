@@ -90,8 +90,8 @@ function JumpButton () {
     const list = document.getElementById("dropList");
     let li = document.createElement("li");
 
-    const IMAGE_WIDTH = 941;
-    const IMAGE_HEIGHT = 845;
+    const IMAGE_WIDTH = 1200;
+    const IMAGE_HEIGHT = 675;
 
     // When you click the button it makes the random location name come up in HTML
     jump.addEventListener("click", () => {
@@ -118,7 +118,7 @@ function JumpButton () {
     });*/
     return(
         <>
-            <Button variant="danger" className={styles.jump}>Jump</Button>
+            <Button variant="danger" className={styles.jump} id="sendIt">Jump</Button>
         </>
     )
 }
