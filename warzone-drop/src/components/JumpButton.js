@@ -114,8 +114,8 @@ function JumpButton () {
 
         // console.log(scaleW, scaleH)
         console.log(dz)
-        // pin.style.top = `${(dz.top * scaleH) + y - (pin.offsetHeight)}px`;
-        // pin.style.left = `${(dz.left * scaleW) + x - (pin.offsetWidth / 2)}px`;
+        pin.style.top = `${(dz.top * scaleH) + y - (pin.offsetHeight)}px`;
+        pin.style.left = `${(dz.left * scaleW) + x - (pin.offsetWidth / 2)}px`;
     });
     return(
         <>
