@@ -89,7 +89,7 @@ function JumpButton () {
     const jump = document.getElementById("sendIt");
     const map = document.getElementById("map");
     //const list = document.getElementById("dropList");
-    let li = document.createElement("li");
+    // let li = document.createElement("li");
 
     const IMAGE_WIDTH = 1200;
     const IMAGE_HEIGHT = 675;
@@ -99,9 +99,9 @@ function JumpButton () {
         let dz = locations[Math.floor(Math.random()*locations.length)];
         result.innerText = dz.name;
 
-        let dzLocation = dz.name
-        let liNode = document.createElement("li");
-        let textNode = document.createTextNode(dzLocation);
+        // let dzLocation = dz.name
+        // let liNode = document.createElement("li");
+        // let textNode = document.createTextNode(dzLocation);
 
         // liNode.appendChild(textNode);
         // list.appendChild(liNode);
