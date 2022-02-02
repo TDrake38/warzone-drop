@@ -95,7 +95,7 @@ function JumpButton () {
     const IMAGE_HEIGHT = 675;
 
     // // // When you click the button it makes the random location name come up in HTML
-    jump.addEventListener("click", () => {
+    function jumpClick() {
         let dz = locations[Math.floor(Math.random()*locations.length)];
         result.innerText = dz.name;
 
@@ -116,10 +116,10 @@ function JumpButton () {
         console.log(dz)
         pin.style.top = `${(dz.top * scaleH) + y - (pin.offsetHeight)}px`;
         pin.style.left = `${(dz.left * scaleW) + x - (pin.offsetWidth / 2)}px`;
-    });
+    };
     return(
         <>
-            <Button variant="danger" className={styles.jump} id="sendIt">Jump</Button>
+            <Button variant="danger" onClick={jumpClick} className={styles.jump} id="sendIt">Jump</Button>
         </>
     )
 }
