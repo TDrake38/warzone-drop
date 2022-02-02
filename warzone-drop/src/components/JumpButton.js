@@ -7,8 +7,8 @@ function JumpButton () {
     const locations = [
         {
             "name": "DOCKS",
-            "top": 644,
-            "left": 107,
+            "top": 107,
+            "left": 644,
         },
         {
             "name": "ARSENAL",
