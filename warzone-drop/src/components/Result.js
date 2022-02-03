@@ -1,12 +1,12 @@
 import React from "react";
 import styles from './Result.module.css'
 
-function Result () {
+function Result ({dropLocation}) {
     return(
         <>
             <div>
                 Drop Here!
-                <div id="result1" className={styles.rez}></div>
+                <div className={styles.rez}>{dropLocation}</div>
             </div>
         </>
     )
