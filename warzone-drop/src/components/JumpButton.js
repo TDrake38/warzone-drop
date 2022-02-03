@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import styles from './JumpButton.module.css'
 
-function JumpButton () {
+function JumpButton ({setDropLocation}) {
 
     const locations = [
         {
@@ -85,19 +85,17 @@ function JumpButton () {
     // // -- This console logs the random location 
     
     const pin = document.getElementById("redDot")
-    const result = document.getElementById("result1");
-    const jump = document.getElementById("sendIt");
+    //const jump = document.getElementById("sendIt");
     const map = document.getElementById("map");
     //const list = document.getElementById("dropList");
     // let li = document.createElement("li");
 
-    const IMAGE_WIDTH = 1200;
-    const IMAGE_HEIGHT = 675;
+    
 
     // // // When you click the button it makes the random location name come up in HTML
     function jumpClick() {
         let dz = locations[Math.floor(Math.random()*locations.length)];
-        result.innerText = dz.name;
+        setDropLocation(dz);
 
         // let dzLocation = dz.name
         // let liNode = document.createElement("li");
@@ -107,15 +105,9 @@ function JumpButton () {
         // list.appendChild(liNode);
 
 
-        const { x, y, width, height } = map.getBoundingClientRect();
-
-        const scaleW = width / IMAGE_WIDTH;
-        const scaleH = height / IMAGE_HEIGHT;
-
+        
         // console.log(scaleW, scaleH)
         console.log(dz)
-        pin.style.top = `${(dz.top * scaleH) + y - (pin.offsetHeight)}px`;
-        pin.style.left = `${(dz.left * scaleW) + x - (pin.offsetWidth / 2)}px`;
     };
     return(
         <>
