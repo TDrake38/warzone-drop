@@ -83,29 +83,21 @@ function JumpButton ({setDropLocation}) {
     ]
 
     // // -- This console logs the random location 
-    
-    const pin = document.getElementById("redDot")
+    //const pin = document.getElementById("redDot")
     //const jump = document.getElementById("sendIt");
-    const map = document.getElementById("map");
+    //const map = document.getElementById("map");
     //const list = document.getElementById("dropList");
     // let li = document.createElement("li");
-
-    
 
     // // // When you click the button it makes the random location name come up in HTML
     function jumpClick() {
         let dz = locations[Math.floor(Math.random()*locations.length)];
         setDropLocation(dz);
-
         // let dzLocation = dz.name
         // let liNode = document.createElement("li");
         // let textNode = document.createTextNode(dzLocation);
-
         // liNode.appendChild(textNode);
         // list.appendChild(liNode);
-
-
-        
         // console.log(scaleW, scaleH)
         console.log(dz)
     };

@@ -1,9 +1,12 @@
-import React, {useRef} from "react";
+import React, {useRef, useLayoutEffect, useState} from "react";
 import styles from './Pin.module.css'
 import Pin from "../photos/pin.png"
 
+const PIN_SIZE = 32;
+
 function PinPic({ dropLocation, mapRef }) {
-    const ref = useRef({offsetWidth: 0, offsetHeight: 0});
+    // const ref = useRef({offsetWidth: 32, offsetHeight: 32});
+    const [pinDimensions, setPinDimensions] = useState();
     // pin.style.top = ;
     // pin.style.left = ;
 
@@ -16,10 +19,16 @@ function PinPic({ dropLocation, mapRef }) {
     const scaleW = width / IMAGE_WIDTH;
     const scaleH = height / IMAGE_HEIGHT;
 
+    // useLayoutEffect(() => {
+    //     //console.log({offsetWidth : ref.current.offsetWidth, offsetHeight : ref.current.offsetHeight})
+    //     setPinDimensions({offsetWidth : ref.current.offsetWidth, offsetHeight : ref.current.offsetHeight})
+    // },[ref.current])
+    
+    //console.log(ref.current, mapRef.current)
 
     return dropLocation? (
         <div>
-            <img ref={ref} className={styles.dot} src={Pin} alt="pin" style={{ top: `${(dropLocation.top * scaleH) + y - (ref.current.offsetHeight)}px`, left: `${(dropLocation.left * scaleW) + x - (ref.current.offsetWidth / 2)}px` }} />
+            <img  className={styles.dot} src={Pin} alt="pin" style={{ top: `${(dropLocation.top * scaleH) + y - PIN_SIZE}px`, left: `${(dropLocation.left * scaleW) + x - (PIN_SIZE / 2)}px` }} />
         </div>
     ): null
 }
